@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "7.0"
   s.ios.deployment_target = "7.0"
   s.source       = { :git => "https://github.com/just2zhq/CocoaPodsDemo.git", :tag => s.version}
-  s.source_files  = '*.{h,m}'
+  s.source_files  = '*'
   s.requires_arc = true
 end
 
